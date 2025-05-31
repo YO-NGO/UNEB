@@ -1,0 +1,39 @@
+<!-- styled_uneb.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UNEB Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>UNEB Candidate Registration Form</h1>
+  <form action="#" method="post">
+    <label for="cname">Candidate Name:</label>
+    <input type="text" id="cname" name="cname" required>
+
+    <label for="sname">School Name:</label>
+    <input type="text" id="sname" name="sname" required>
+
+    <label for="index">Index Number:</label>
+    <input type="text" id="index" name="index" required>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+
+    <label for="subjects">Subject Choices:</label>
+    <select id="subjects" name="subjects" multiple required>
+      <option>Mathematics</option>
+      <option>English</option>
+      <option>Biology</option>
+      <option>Physics</option>
+      <option>Chemistry</option>
+      <option>Geography</option>
+      <option>History</option>
+      <option>Commerce</option>
+    </select>
+
+    <button type="submit">Submit Registration</button>
+  </form>
+</body>
+</html>
